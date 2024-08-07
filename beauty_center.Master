@@ -1,0 +1,101 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="beauty_center.master.cs" Inherits="guzellikmerkezi_donemproje.beauty_center" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<link href="stil.css" rel="stylesheet" type="text/css"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+
+<body class="">
+    <form id="form1" runat="server">
+        <div>
+           
+			<header class="site-header">
+				<div class="container">
+					<a id="branding" href="index.html">
+						<img src="images/logomuz2.png" class="logo">
+						
+					</a> <!-- #branding -->
+
+					
+					<!-- Default snippet for navigation -->
+					<div class="main-navigation">
+						<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+						<ul class="menu">
+							<div style="height: 0.5cm;"></div>
+							<li class="menu-item current-menu-item"><a href="AnaSayfa.aspx">Ana Sayfa</a></li>
+							<li class="menu-item" ><a href="about.html">randevu işlemleri</a></li>
+							<li class="menu-item"><a href="Hakkimizda.aspx">hakkımızda</a></li>
+							<li class="menu-item"><a href="contact.html">iletişim</a></li>
+							<li class="menu-item button" style="border-radius:35px; border-color: #cc7250; margin-right:5px"><a href="#">Giriş Yap</a></li>
+							<li class="menu-item button" style="border-radius:35px; border-color: #cc7250; margin-right:5px"><a href="#">Üye Ol</a></li>
+						</ul> <!-- .menu -->
+					</div> <!-- .main-navigation -->
+
+					<div class="mobile-navigation"></div>
+				</div>
+			</header>
+			
+			
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+			<footer class="site-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<div class="widget contact-widget">
+								<h3 class="widget-title">İletişim</h3>
+								<div class="contact-info">
+									<address>
+										<img src="images/icon-map-small.png" class="icon">
+										<p><strong>Mrs. Well Beauty</strong> 127/5 sokak no:27 Bornova/Izmir</p>
+									</address>
+									<a href="https://www.google.com/intl/tr/gmail/about/" class="mail"><img src="images/icon-envelope-small.png" class="icon">200601006@bakircay.edu.tr</a>
+									<a href="tel:5534181898" class="phone"><img src="images/icon-phone-small.png" class="icon">+90(553 418 18 98)</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="widget">
+								<h3 class="widget-title">Sosyal Medya</h3>
+								<p>Sosyal medya hesaplarımızı takipte olun, gelişmelerden haberdar olun. </p>
+								<div class="social-links">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-pinterest"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="widget">
+								<h3 class="widget-title">Newsletter</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident et praesentium </p>
+								<form action="#" class="subscribe-form">
+									<input type="email" placeholder="Enter our email...">
+									<input type="submit" value="Sign up">
+								</form>
+							</div>
+						</div>
+					</div>
+
+					<div class="colophon">
+						<p>Copyright 2014 Company name. Designed by Themezy. All rights reserved.</p>
+					</div>
+				</div>
+			</footer>
+        </div>
+    </form>
+
+	<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "guzellikmerkezi_donemproje", "guzellikmerkezi_donemproje.csproj", "{E3A158F4-66F0-49B0-A16C-00F7AF00D80B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3A158F4-66F0-49B0-A16C-00F7AF00D80B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3A158F4-66F0-49B0-A16C-00F7AF00D80B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3A158F4-66F0-49B0-A16C-00F7AF00D80B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3A158F4-66F0-49B0-A16C-00F7AF00D80B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {855EF48C-AF43-464B-8C5E-0951F385AD26}
+	EndGlobalSection
+EndGlobal
